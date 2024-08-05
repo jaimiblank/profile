@@ -1,0 +1,96 @@
+body {
+  background-color: blush;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: x-small;
+  /* line-height: 50%; */
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  color: black;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  color: black;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: x-small;
+}
+
+a {
+  text-decoration: underline;
+  color: blueviolet;
+}
+a:hover {
+  color: blue;
+}
+
+#logo {
+  width: 40px;
+}
+
+.biopic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 0px 10px 3px rgb(0, 0, 0);
+}
+
+
+#main-container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+#avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.btn-purple {
+  background-color: #6B72E1;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  background-color: black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 701px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
